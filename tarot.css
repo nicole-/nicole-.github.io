@@ -1,0 +1,149 @@
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*body {
+	background-image: url("Night_sky-5.jpg");
+}
+*/
+
+#layout, #deck {
+	float: left;
+}
+
+/*#dropdowns h1 {
+	font-size: 14px;
+	margin: 0 auto;
+}*/
+
+#input {
+	/*float: left;*/
+}
+
+
+/*#layout, #deck, #layoutButtons {
+	background-color: darkgrey;
+	padding: 5px;
+	border-radius: 5px;
+}*/
+#top ul {
+	list-style-type: none;
+}
+#top ul li {
+	float: right;
+	padding: 2px;
+	font: 20px;
+}
+#top ul li a {
+	text-decoration: none;
+}
+button {
+	background-color: darkgrey;
+	padding: 10px;
+	border: none;
+	border-bottom: 2px solid lightgrey;
+	margin: 5px;
+	border-radius: 5px;
+}
+
+.cardLayout {
+	padding: 20px;
+	width: 80%;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 120px;
+	float: left;
+}
+
+.cardSlot {
+	float: left;
+	margin-left: 35px;
+}
+
+.meaning {
+	background-color: lightgrey;
+}
+
+.cardLayout img {
+	height: 300px;
+	width: 170px;
+}
+
+.cardLabels {
+	color: darkgrey;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+.cross h1 {
+	font-size: 10px;
+}
+
+/*CROSS LAYOUT*/
+#cardBoxOne.cross {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
+}
+#cardBoxTwo.cross {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 200px;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+}
+#cardBoxThree.cross {
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 440px;
+}
+#cardBoxFour.cross {
+	position: absolute;
+	margin-top: 200px;
+}
+#cardBoxFive.cross {
+	position: absolute;
+	margin-top: -40px;
+	margin-left: 200px;
+}
+#cardBoxSix.cross {
+	position: absolute;
+	margin-top: 200px;
+	margin-left: 380px;
+}
+#cardBoxSeven.cross {
+	position: absolute;
+	margin-top: 620px;
+	margin-left: 500px;
+}
+#cardBoxEight.cross {
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 500px;
+}
+#cardBoxNine.cross {
+	position: absolute;
+	margin-top: 140px;
+	margin-left: 500px;
+}
+#cardBoxTen.cross {
+	position: absolute;
+	margin-top: -100px;
+	margin-left: 500px;
+}
+.cross img {
+	height: 200px;
+	width: 100px;
+}

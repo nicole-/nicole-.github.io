@@ -1,0 +1,62 @@
+#wrap {
+	width: 70%;
+	margin: 0 auto;
+}
+
+#top ul {
+	list-style-type: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+#allCardsNav ul {
+	list-style-type: none;
+	margin-right: 20px;
+	font-size: 20px;
+}
+#top li a {
+	font-size: 15px;
+}
+li a {
+	float: left;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#top li a {
+	float: left;
+}
+/*in js, all nav with class of selected will be darkened.*/
+.selectedNav a {
+	background-color: grey;
+}
+#cardDisplay img {
+	width: 170px;
+	height: 300px;
+}
+#cardDisplay figure {
+	float: left;
+}
+.meaning {
+	display: none;
+	font-size: 12px;
+	height: 300px;
+	width: 170px;
+	margin-top: -300px;
+}
+
+.fig img:hover ~ .meaning {
+	display: block;
+}
+.fig img:hover {
+	opacity: .15;
+}
+#cardDisplay h3 {
+	font-family: garamond;
+	font-size: 20px;
+	margin-top: 0px;
+}
+#cardDisplay h3 a {
+	text-decoration: none;
+	color: darkred;
+}
+
