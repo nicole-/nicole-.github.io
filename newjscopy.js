@@ -152,6 +152,7 @@
 
 		function showDescription() {
 			var description = randomImage.desc;
+			
 			alert('hi');
 		}
 
